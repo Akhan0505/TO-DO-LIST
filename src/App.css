@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+html{font-size: 62.5%;}
+
+
+                    /* BACKGROUND STYLING */
+
+body{background-image: linear-gradient(to bottom right , #12335f , #256cad , #000000 , #000000 , #000000 , #091a4b , #265cad , #12335f);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+min-height: 100vh;}
+
+                    /* HEADING STYLING */
+
+#heading{font-family:'Times New Roman';
+font-size: 8rem;
+text-align: center;
+margin-top: 3rem;
+color: white;
+margin-bottom: 3rem;}
+#subheading{font-family:'Times New Roman';
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 3rem;
+    color: white;
+    margin-bottom: 3rem;
+
+}
+
+                    /* BOX STYLING  */
+
+#box{text-align: center;
+background-color: rgb(11, 17, 29);
+margin: 0 auto;
+width: 70vw;
+padding: 2rem;
+min-height: 80vh;
+border: 0;
+border-radius: 1rem;}
+
+                    /* INPUT STYLING */
+
+input{padding: 1.3rem;
+font-family:monospace;
+font-size: 2rem;
+border-radius: 1rem;
+margin: 0.7rem;}
+
+
+
+
+                    /* BUTTONS STYLING */
+
+.button{font-family:sans-serif;
+
+padding: 1rem;
+font-size: 2rem;
+margin: 0.4rem;
+cursor:pointer;
+border: 0;
+border-radius: 1rem;
+background-color: #1b172b;
+color:white;
+transition: all 0.3s;}
+
+
+.button:hover{background-color: #023e8a;}
+
+
+                    /* LIST STYLING */
+
+#list{font-family:monospace;
+font-size: 2.1rem;
+padding: 0.5rem;
+margin-top: 2rem;
+box-shadow: 0 0.4rem 0.8rem 0 rgba(238, 229, 229, 0.2), 0 0.6rem 2rem 0 rgba(0, 0, 0, 0.19);
+background-color: rgb(10, 21, 68);
+border: 0;
+color: white;
+border-radius: 1rem;}
+
+
+
+.loginButton{
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 50px;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 2rem;
+    background-color: #1b172b;
+    color: white;
+    transition: all 0.3s;
+}
+
+.loginButton:hover{background-color: #023e8a;}
+
+
+
+
+                    /* MEDIA QUERIES */
+
+
+@media(max-width:998px){
+    html{font-size: 55%;}
+}
+
+
+@media(max-width:768px){
+    html{font-size: 45%;}
+}
